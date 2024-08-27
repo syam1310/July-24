@@ -1,5 +1,7 @@
 package org.july_24.leetcode;
 
+import java.util.List;
+
 public class Driver {
     public static void main(String[] args) {
         int[] flowerbed = {1, 0, 0, 0, 1};
@@ -22,7 +24,11 @@ public class Driver {
         int k = 4;
         int x = 3;
 
-        System.out.println(FindKClosestElements.findClosestElements(arr, k, x));
+        //System.out.println(FindKClosestElements.findClosestElements(arr, k, x));
+
+        int a = 4, b = 4, c = 6;
+        System.out.println(MaximumScoreFromRemovingStones.maximumScore(a, b, c));
+
 
 
     }

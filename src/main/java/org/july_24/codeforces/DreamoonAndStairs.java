@@ -5,7 +5,6 @@ public class DreamoonAndStairs {
         int n = 3;
         int m = 5;
 
-
         int minMoves = (n + 1) / 2;
 
         while (minMoves % m != 0)minMoves++;
